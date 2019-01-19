@@ -1,0 +1,40 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+/*header*/
+.page-header {
+  background-color: black;
+  padding-left: 5%;
+  height: 50px;
+}
+.page-header a {
+  font-weight:bold;
+  color: white;
+  text-decoration:none;
+  margin-left: 20px;
+  line-height: 50px;
+}
+.page-header a:hover {
+color: #C0C0C0;
+text-decoration:underline;
+}
+
+/*content*/
+h2 {
+    color: black;
+}
+
+.content {
+    padding-left: 50px;
+}
+
+/*table*/
+table th {/*table内のthに対して*/
+  padding: 10px 0px;/*上下左右10pxずつ*/
+  margin: 5px;
+}
+
+table td {/*table内のtdに対して*/
+  padding: 3px 0px;/*上下3pxで左右10px*/
+}
